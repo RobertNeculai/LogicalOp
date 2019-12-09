@@ -25,6 +25,7 @@ public class App
         System.out.println();
         a.sum(x);
         a.medie(x);
+        a.star();
 
     }
 }

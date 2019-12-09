@@ -90,4 +90,14 @@ public class LogicalOp {
         }
         System.out.println("Media numerelor este de la "+a+" pana la 100 este: "+(double)(s/c));
     }
+    public void star()
+    {
+        int i,j;
+        for(i=7;i>0;i--) {
+            for (j = 0; j < i; j++)
+                System.out.print("*");
+            System.out.println();
+        }
+    }
 }
+
